@@ -14,6 +14,12 @@ const vitePressSidebarConfig = {
   capitalizeFirst: true,
   useTitleFromFrontmatter: true,
   hyphenToSpace: true,
+  manualSortFileNameByPriority: [
+    "the-basic",
+    "the-editor",
+    "key-features",
+    "technical-bits",
+  ],
 };
 
 export default withSidebar(vitePressConfig, vitePressSidebarConfig);
