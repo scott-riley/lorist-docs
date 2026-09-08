@@ -15,7 +15,7 @@ const vitePressSidebarConfig = {
   useTitleFromFrontmatter: true,
   hyphenToSpace: true,
   manualSortFileNameByPriority: [
-    "the-basic",
+    "the-basics",
     "the-editor",
     "key-features",
     "technical-bits",
