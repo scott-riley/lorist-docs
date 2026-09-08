@@ -1,0 +1,209 @@
+@import url("https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@1&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=general-sans@1,2&display=swap");
+
+:root {
+  interpolate-size: allow-keywords;
+
+  --step--2: clamp(0.7035rem, 0.7268rem + -0.03vw, 0.72rem);
+  --step--1: clamp(0.9rem, 0.8846rem + 0.0686vw, 0.9377rem);
+  --step-0: clamp(1.125rem, 1.0739rem + 0.2273vw, 1.25rem);
+  --step-1: clamp(1.4063rem, 1.2999rem + 0.4727vw, 1.6663rem);
+  --step-2: clamp(1.7578rem, 1.5683rem + 0.8424vw, 2.2211rem);
+  --step-3: clamp(2.1973rem, 1.8849rem + 1.3881vw, 2.9607rem);
+  --step-4: clamp(2.7466rem, 2.2556rem + 2.182vw, 3.9467rem);
+  --step-5: clamp(3.4332rem, 2.6855rem + 3.3231vw, 5.2609rem);
+
+  --space-3xs: clamp(0.25rem, 0.2244rem + 0.1136vw, 0.3125rem);
+  --space-2xs: clamp(0.5rem, 0.4744rem + 0.1136vw, 0.5625rem);
+  --space-xs: clamp(0.75rem, 0.6989rem + 0.2273vw, 0.875rem);
+  --space-s: clamp(1rem, 0.9489rem + 0.2273vw, 1.125rem);
+  --space-m: clamp(1.5rem, 1.4233rem + 0.3409vw, 1.6875rem);
+  --space-l: clamp(2rem, 1.8977rem + 0.4545vw, 2.25rem);
+  --space-xl: clamp(3rem, 2.8466rem + 0.6818vw, 3.375rem);
+  --space-2xl: clamp(4rem, 3.7955rem + 0.9091vw, 4.5rem);
+  --space-3xl: clamp(6rem, 5.6932rem + 1.3636vw, 6.75rem);
+
+  /* One-up pairs */
+  --space-3xs-2xs: clamp(0.25rem, 0.1222rem + 0.5682vw, 0.5625rem);
+  --space-2xs-xs: clamp(0.5rem, 0.3466rem + 0.6818vw, 0.875rem);
+  --space-xs-s: clamp(0.75rem, 0.5966rem + 0.6818vw, 1.125rem);
+  --space-s-m: clamp(1rem, 0.7188rem + 1.25vw, 1.6875rem);
+  --space-m-l: clamp(1.5rem, 1.1932rem + 1.3636vw, 2.25rem);
+  --space-l-xl: clamp(2rem, 1.4375rem + 2.5vw, 3.375rem);
+  --space-xl-2xl: clamp(3rem, 2.3864rem + 2.7273vw, 4.5rem);
+  --space-2xl-3xl: clamp(4rem, 2.875rem + 5vw, 6.75rem);
+
+  /* Custom pairs */
+  --space-s-l: clamp(1rem, 0.4886rem + 2.2727vw, 2.25rem);
+
+  /* Tokens */
+  --font-family-mono: "Lilex", monospace;
+  --font-family-sans: "Cabinet Grotesk", sans-serif;
+  --radius-xs: 2.5px;
+  --radius-s: 6px;
+  --radius-m: 12px;
+  --color-bg-logo: black;
+  --color-text-logo: white;
+  --color-text: #333;
+  --color-text-code: white;
+  --color-text-standout: black;
+  --color-text-muted: #666;
+  --color-text-dim: #888;
+  --color-text-danger: #fca5a5;
+  --color-text-on-danger: white;
+  --color-bg: white;
+  --color-bg-muted: #f7f7f7;
+  --color-bg-dim: #f0f0f0;
+  --color-border: #efefef;
+  --color-border-mid: #d9d9d9;
+  --color-bg-danger: #fa5252;
+  --color-bg-danger-hover: #f03e3e;
+  --color-bg-code: #282c34;
+  --color-modal-backdrop: rgba(0, 0, 0, 0.6);
+  --shadow-color: 0deg 0% 0%;
+  --shadow-elevation-low:
+    0.3px 0.2px 0.4px hsl(var(--shadow-color) / 0.11),
+    0.4px 0.4px 0.6px -1.6px hsl(var(--shadow-color) / 0.09),
+    0.9px 0.9px 1.3px -3.3px hsl(var(--shadow-color) / 0.07);
+  --shadow-elevation-medium:
+    0.3px 0.2px 0.4px hsl(var(--shadow-color) / 0.11),
+    0.7px 0.6px 0.9px -1.1px hsl(var(--shadow-color) / 0.1),
+    1.8px 1.7px 2.5px -2.2px hsl(var(--shadow-color) / 0.08),
+    4.6px 4.3px 6.3px -3.3px hsl(var(--shadow-color) / 0.07);
+  --shadow-elevation-high:
+    0.3px 0.2px 0.4px hsl(var(--shadow-color) / 0.1),
+    0.9px 0.9px 1.3px -0.5px hsl(var(--shadow-color) / 0.1),
+    1.8px 1.6px 2.4px -0.9px hsl(var(--shadow-color) / 0.09),
+    3.1px 2.8px 4.2px -1.4px hsl(var(--shadow-color) / 0.08),
+    5.2px 4.8px 7.1px -1.9px hsl(var(--shadow-color) / 0.08),
+    8.5px 7.9px 11.7px -2.4px hsl(var(--shadow-color) / 0.07),
+    13.4px 12.4px 18.3px -2.8px hsl(var(--shadow-color) / 0.07),
+    20.1px 18.7px 27.6px -3.3px hsl(var(--shadow-color) / 0.06);
+  font-size: 16px;
+  --vp-font-family-mono: "Lilex", monospace;
+
+  --vp-c-text-1: #333;
+  --vp-c-text-2: #666;
+  --vp-c-text-3: #888;
+
+  --vp-c-bg: #fff;
+  --vp-c-bg-alt: #f0f0f0;
+  --vp-c-bg-soft: #f7f7f7;
+
+  --vp-c-border: #d9d9d9;
+  --vp-c-divider: #efefef;
+  --vp-c-gutter: #efefef;
+
+  --radius-s: 6px;
+  --radius-m: 12px;
+  --vp-sidebar-bg-color: var(--color-bg);
+  --vp-c-brand-1: var(--color-text-standout);
+  --vp-c-brand-2: var(--color-text-standout);
+}
+
+[data-theme="dark"],
+.dark {
+  color-scheme: dark;
+  --color-bg-logo: white;
+  --color-text-logo: black;
+  --color-text: #ced4da;
+  --color-text-code: #e4e4e7;
+  --color-text-standout: #f8f9fa;
+  --color-text-muted: #a1a1aa;
+  --color-text-dim: #71717a;
+  --color-text-on-danger: #fffafa;
+  --color-text-danger: #fca5a5;
+  --color-bg: #18181b;
+  --color-bg-muted: #212128;
+  --color-bg-dim: #27272a;
+  --color-border: #27272a;
+  --color-border-mid: #3f3f46;
+  --color-bg-danger: #dc2626;
+  --color-bg-danger-hover: #991b1b;
+  --color-bg-code: var(--color-bg-muted);
+  --color-modal-backdrop: rgba(0, 0, 0, 0.75);
+  --shadow-elevation-low:
+    0.3px 0.2px 0.4px hsl(var(--shadow-color) / 0.35),
+    0.4px 0.4px 0.6px -1.6px hsl(var(--shadow-color) / 0.3),
+    0.9px 0.9px 1.3px -3.3px hsl(var(--shadow-color) / 0.25);
+  --shadow-elevation-medium:
+    0.3px 0.2px 0.4px hsl(var(--shadow-color) / 0.35),
+    0.7px 0.6px 0.9px -1.1px hsl(var(--shadow-color) / 0.32),
+    1.8px 1.7px 2.5px -2.2px hsl(var(--shadow-color) / 0.28),
+    4.6px 4.3px 6.3px -3.3px hsl(var(--shadow-color) / 0.24);
+  --shadow-elevation-high:
+    0.3px 0.2px 0.4px hsl(var(--shadow-color) / 0.32),
+    0.9px 0.9px 1.3px -0.5px hsl(var(--shadow-color) / 0.32),
+    1.8px 1.6px 2.4px -0.9px hsl(var(--shadow-color) / 0.3),
+    3.1px 2.8px 4.2px -1.4px hsl(var(--shadow-color) / 0.28),
+    5.2px 4.8px 7.1px -1.9px hsl(var(--shadow-color) / 0.26),
+    8.5px 7.9px 11.7px -2.4px hsl(var(--shadow-color) / 0.24),
+    13.4px 12.4px 18.3px -2.8px hsl(var(--shadow-color) / 0.22),
+    20.1px 18.7px 27.6px -3.3px hsl(var(--shadow-color) / 0.2);
+  --vp-c-text-1: #ced4da;
+  --vp-c-text-2: #a1a1aa;
+  --vp-c-text-3: #71717a;
+
+  --vp-c-bg: #18181b;
+  --vp-c-bg-alt: #27272a;
+  --vp-c-bg-soft: #212128;
+
+  --vp-c-border: #3f3f46;
+  --vp-c-divider: #27272a;
+  --vp-c-gutter: #27272a;
+}
+.VPSidebar {
+  border-right: 1px solid var(--color-border);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "General Sans", sans-serif;
+  font-size: var(--step-0);
+}
+
+.vp-doc {
+  h1,
+  h2,
+  h3 {
+    font-family: "Cabinet Grotesk", sans-serif;
+    font-weight: 640;
+    letter-spacing: 0;
+  }
+  .custom-block {
+    padding-top: 8px;
+    background: var(--color-bg-muted);
+  }
+  .custom-block-title {
+    display: none;
+  }
+}
+
+.vp-doc table {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+
+.vp-doc th,
+.vp-doc td {
+  width: auto;
+}
+
+.vp-doc h1 {
+  font-weight: 820;
+  font-size: var(--step-3);
+}
+
+.vp-doc h2 {
+  font-weight: 780;
+  border-top: none;
+  margin-top: var(--space-s);
+}
+
+.vp-doc [class*="language-"] pre {
+  font-size: 14px;
+}
