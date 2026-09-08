@@ -19,13 +19,9 @@ If local-only isn’t your thing and you _really need_ remote syncing, that’s 
 
 The Lorist editor is Markdown–based, meaning you’ll likely want to know a _little_ Markdown to get the most out of things. You can check the Markdown cheat–sheet to see some of the more common formatting examples. You can also see a list of the Markdown marks Lorist supports.
 
-Learn more in the Markdown page.
-
 ## Folders matter
 
 Folders are containers for all your writing, and are an important part of getting the most out of Lorist. A good mental model is to see each folder as a specific theme or area of concern. If you’re writing a book, maintaining a blog, and keeping a journal, you should probably have a Book, Blog, and Journal folder.
-
-Learn more in the UI page.
 
 ## Get focused
 
@@ -36,8 +32,6 @@ Focus mode lets you dim surrounding elements and focus only on the thing you’r
 Setting achievable writing goals really helps some folks, and can be especially useful if you’ve got a long project like a book or dissertation to write, or if you run a blog or publication that you need to contribute to consistently.
 
 You can set both per–document and weekly writing goals for any folder. As you write, you’ll be able to track your progress towards your goals.
-
-Learn more in the Writing Goals page.
 
 ## Make it yours
 
