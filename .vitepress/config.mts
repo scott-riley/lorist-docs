@@ -5,7 +5,7 @@ const vitePressConfig = defineConfig({
   head: [["link", { rel: "icon", href: "/favicon.svg" }]],
   themeConfig: {
     logo: {
-      light: "/logo-light.svg",
+      light: "/logo.svg",
       dark: "/logo-dark.svg",
     },
     siteTitle: false,
