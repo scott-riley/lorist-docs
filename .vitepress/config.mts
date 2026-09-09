@@ -2,8 +2,12 @@ import { defineConfig } from "vitepress";
 import { withSidebar } from "vitepress-sidebar";
 
 const vitePressConfig = defineConfig({
+  head: [["link", { rel: "icon", href: "/favicon.svg" }]],
   themeConfig: {
-    logo: "/logo.svg",
+    logo: {
+      light: "/logo-light.svg",
+      dark: "/logo-dark.svg",
+    },
     siteTitle: false,
   },
 });
