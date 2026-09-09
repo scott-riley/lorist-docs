@@ -6,6 +6,9 @@ const vitePressConfig = defineConfig({
     logo: "/logo.svg",
     siteTitle: false,
   },
+  rewrites: {
+    "the-basics/getting-started.md": "index.md",
+  },
 });
 
 const vitePressSidebarConfig = {
