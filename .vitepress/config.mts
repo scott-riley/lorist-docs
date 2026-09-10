@@ -9,7 +9,13 @@ const vitePressConfig = defineConfig({
       dark: "/logo-dark.svg",
     },
     siteTitle: false,
+    socialLinks: [
+      { icon: "github", link: "https://github.com/scott-riley/lorist-writer" },
+    ],
   },
+  title: "Lorist Docs",
+  description:
+    "Documentation for Lorist; the writing app that gets out of your way.",
 });
 
 const vitePressSidebarConfig = {

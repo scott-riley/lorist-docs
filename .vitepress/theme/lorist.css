@@ -180,6 +180,19 @@ body {
   .custom-block-title {
     display: none;
   }
+  img {
+    border-radius: 24px;
+    margin-top: var(--space-l);
+    margin-bottom: var(--space-l);
+    border: 6px solid var(--color-bg-dim);
+    outline: 1px solid var(--color-border-mid);
+    overflow: hidden;
+    .dark & {
+      border: 6px solid var(--color-bg-dim);
+      outline: 1px solid var(--color-border);
+      box-shadow: var(--shadow-elevation-high);
+    }
+  }
 }
 
 .vp-doc table {
