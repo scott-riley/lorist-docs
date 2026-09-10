@@ -12,6 +12,14 @@ While Lorist is Markdown–based, you might prefer using good old–fashioned ke
 `Mod` = `Cmd` on macOS, `Ctrl` on Windows/Linux.
 :::
 
+## App shortcuts
+
+| Action                  | Shortcut      |
+| ----------------------- | ------------- |
+| Toggle Focus Mode       | `Mod-/`       |
+| Expand/collapse Sidebar | `Mod-Shift-E` |
+| Open ‘go to…’ panel     | `Mod-K`       |
+
 ## Headings
 
 | Block     | Markdown | Keyboard shortcut |
@@ -31,11 +39,12 @@ While Lorist is Markdown–based, you might prefer using good old–fashioned ke
 
 ## Lists
 
-| Block        | Markdown     | Keyboard shortcut |
-| ------------ | ------------ | ----------------- |
-| Bullet list  | `- item`     | `Mod-Shift-8`     |
-| Ordered list | `1. item`    | `Mod-Shift-7`     |
-| Task list    | `- [ ] item` | None              |
+| Block                 | Markdown   | Keyboard shortcut            |
+| --------------------- | ---------- | ---------------------------- |
+| Bullet list           | `- item`   | `Mod-Shift-8`                |
+| Ordered list          | `1. item`  | `Mod-Shift-7`                |
+| Task list (unchecked) | `[ ] item` | None (press space after `]`) |
+| Task list (checked)   | `[x] item` | None (press space after `]`) |
 
 ## Blocks
 

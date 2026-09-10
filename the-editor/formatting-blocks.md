@@ -24,7 +24,7 @@ Here’s some common blocks and their respective Markdown marks:
 | Unordered list  | `- item`      |
 | Ordered list    | `1. item`     |
 | Task list       | `- [ ] item`  |
-| Code block      | `` `code` ``  |
+| Code block      | ` ``` `       |
 | Horizontal rule | `---`         |
 | Image           | `![alt](url)` |
 

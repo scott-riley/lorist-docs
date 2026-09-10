@@ -17,25 +17,35 @@ If local-only isn’t your thing and you _really need_ remote syncing, that’s 
 
 ## Markdown–based editing
 
-The Lorist editor is Markdown–based, meaning you’ll likely want to know a _little_ Markdown to get the most out of things. You can check the Markdown cheat–sheet to see some of the more common formatting examples. You can also see a list of the Markdown marks Lorist supports.
+The Lorist editor is Markdown–based, meaning you’ll likely want to know a _little_ Markdown to get the most out of things. You can check the <a href="/the-editor/markdown-and-shortcuts/">Markdown syntax and keyboard shortcuts</a> to see formatting examples.
+
+<img src="/md-example.webp" alt="Markdown content rendered in Lorist" />
 
 ## Folders matter
 
 Folders are containers for all your writing, and are an important part of getting the most out of Lorist. A good mental model is to see each folder as a specific theme or area of concern. If you’re writing a book, maintaining a blog, and keeping a journal, you should probably have a Book, Blog, and Journal folder.
 
+<img src="/folder-options.webp" alt="Folders in Lorist" />
+
 ## Get focused
 
 Focus mode lets you dim surrounding elements and focus only on the thing you’re writing at any given time. It works super well for longer documents, but is a useful tool for any type of writing, especially if you tend to struggle with distractions and over–editing when you’re supposed to be writing. Use the `CMD + /` shortcut to toggle it on and off in an instant.
 
+<img src="/focus-mode.webp" />
+
 ## Set some goals
 
 Setting achievable writing goals really helps some folks, and can be especially useful if you’ve got a long project like a book or dissertation to write, or if you run a blog or publication that you need to contribute to consistently.
+
+<img src="/weekly-goals.webp" alt="Folders in Lorist" />
 
 You can set both per–document and weekly writing goals for any folder. As you write, you’ll be able to track your progress towards your goals.
 
 ## Make it yours
 
 Lorist has a light and dark theme, and the editor can be toggled between four bespoke typographic themes.
+
+<img src="/themes.webp" alt="Themes in Lorist" />
 
 **Sans-serif** is the default theme and gives a clean, modern look. **Serif** is a more traditional style that many folks find to be more palatable for longer pieces. **Monospace** uses a monospace font (often called a ‘typewriter’ font, but don’t say that to a Typography Enjoyer™) which gives the editor a very structured feel. Some folks find monospace makes editing and proofreading easier, but there’s very little consensus on this.
 
